@@ -1,0 +1,22 @@
+@import "../../scss/variables";
+
+.navbar {
+  background-color: $cardNavBgColor;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+
+  .links a {
+    color: white;
+    font-family: $fontFamily;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: rgb(75, 197, 210);
+      height: 100%;
+    }
+  }
+}
